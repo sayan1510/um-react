@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.box-container {
+  margin: 16px auto;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h4,
+h5 {
+  color: #333;
+  margin: 0;
+}
+
+p,
+label {
+  color: #555;
+}
+
+button,
+.MuiButton-containedPrimary {
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover,
+.MuiButton-containedPrimary:hover {
+  background-color: #155a9c;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.MuiTableContainer-root {
+  margin-top: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.MuiTableHead-root {
+  background-color: #1976d2;
+}
+
+.MuiTableCell-root {
+  color: #fff;
+  font-weight: bold;
+}
+
+.MuiTableBody-root .MuiTableCell-root {
+  color: #555;
+}
+
+.MuiTableBody-root img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.MuiSvgIcon-root {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.MuiSvgIcon-root:hover {
+  transform: scale(1.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiTextField-root {
+  margin: 8px 0;
+}
+
+.MuiGrid-root img {
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.MuiTypography-h4 {
+  margin-bottom: 16px;
+  font-size: 1.8rem;
+}
+
+.MuiTypography-h5 {
+  font-size: 1.5rem;
+}
+
+.MuiTypography-body1 {
+  font-size: 1rem;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .MuiGrid-container {
+    flex-direction: column;
+  }
+
+  .MuiButton-containedPrimary {
+    width: 100%;
+    margin-top: 16px;
+  }
+}
